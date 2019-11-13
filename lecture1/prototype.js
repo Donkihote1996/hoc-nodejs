@@ -4,3 +4,4 @@ var obj = {
         console.log("hello")
     }
 }
+obj.prototype.name="davis hai"
