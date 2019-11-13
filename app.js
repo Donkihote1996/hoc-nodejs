@@ -1,4 +1,7 @@
 var http = require('http')
-http.createServer(function(req,res){
-    
-}).listen(3000);
+var express = require('express');
+var app = express()
+app.get('index',function(req,res){
+
+},200);
+app.listen(3000)
